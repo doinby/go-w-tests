@@ -1,7 +1,10 @@
 package main
 
-import "go-w-tests/hello"
+import (
+	"fmt"
+	"go-w-tests/hello"
+)
 
 func main() {
-	hello.Hello()
+	fmt.Println(hello.Hello())
 }
